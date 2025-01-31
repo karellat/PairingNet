@@ -4,7 +4,7 @@
 URL="https://huggingface.co/datasets/AnonymousUser19/Fragments-dataset/resolve/main/Fragments%20dataset.zip"
 ZIP_FILE="Fragments_dataset.zip"
 TARGET_DIR="PairingNet Code"
-RENAMED_DIR="309"
+RENAMED_DIR="390"
 
 # Create the target directory if it does not exist
 mkdir -p "$TARGET_DIR"
@@ -18,7 +18,7 @@ echo "Unzipping dataset..."
 unzip "$ZIP_FILE"
 
 # Find the extracted folder (assuming it is named after the zip file without .zip)
-EXTRACTED_DIR=$(basename "$ZIP_FILE" .zip)
+EXTRACTED_DIR="Fragments dataset"
 
 # Rename the extracted folder
 echo "Renaming extracted directory to $RENAMED_DIR..."
